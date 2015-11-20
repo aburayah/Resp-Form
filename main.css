@@ -1,0 +1,94 @@
+body {
+	background-color: wheat;
+}
+
+.footer {
+	background-color: gainsboro;
+}
+
+#masthead {
+	background-image: url(http://www.icsevents.com/images/registration-12_000.jpg);
+	background-repeat: no-repeat;
+	background-size: 458px 285px;
+	padding: 2rem 0rem 5rem 0rem;
+	clear: both;
+	width: 100%;
+	float: right;
+	margin: -9px 8px;
+}
+
+#masthead h1,
+h2 {
+	display: block;
+	color: cornflowerblue;
+	float: left;
+	margin: o auto;
+	padding: 0rem 0rem 0rem 36rem;
+}
+
+fieldset {
+	border-style: hidden;
+}
+
+
+/*
+.box::before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid blue;
+	border-bottom: 10px solid transparent;
+	vertical-align: middle;
+}*/
+
+.wrap {
+	margin: 10px;
+}
+
+form {
+	width: 90%;
+	margin: 0 auto;
+}
+
+input {
+	display: inline-block;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width:450px) {
+	.box {
+		display: inline;
+		width: 100%;
+		margin: 10px;
+	}
+}
+
+@media only screen and (min-width: 451px)and (max-width:950px) {
+	.box {
+		display: inline;
+		float: left;
+		width: 45%;
+		margin: 10px;
+	}
+}
+
+@media only screen and (min-width: 951px) {
+	.box {
+		padding: 2.5rem;
+		display: inline;
+		float: left;
+		width: 45%;
+		margin: 0rem;
+	}
+	label {
+		float: left;
+		color: cornflowerblue;
+		display: inline-block;
+	}
+}
